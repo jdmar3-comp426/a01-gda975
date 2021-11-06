@@ -5,21 +5,23 @@ body {
 .header {
     background-color: #ffdab9;
     border: 3px solid black;
+    margin: 0 auto;
 }
 
 h1 {
     font-family: Papyrus;
-    width: 100px;
-    margin: 0 auto;
     padding-top: 15px;
-    padding-bottom: 15px;;
+    padding-bottom: 15px;
+    width: 247px;
+    margin: 0 auto;
 }
 
 nav {
     font-family: Arial;
     padding-bottom: 5px;
-    width: 500px;
+    width: 410px;
     margin: 0 auto;
+
 }
 
 h2 {
@@ -38,6 +40,10 @@ a:hover {
     background-color: indianred;
 }
 
+a {
+    padding: 0pc 10px;
+}
+
 .body {
     border: 3px solid black;
     border-top: 0;
@@ -47,10 +53,13 @@ a:hover {
 #hercules {
     height: 300px;
     width: 350px;
+    display: block;
     margin: 0 auto;
 }
 
 .body img {
-    height: 100px;
-    width: 100px;
+    height: 300px;
+    width: 350px;
+    display: block;
+    margin: 0 auto;
 }
