@@ -4,17 +4,29 @@ body {
 
 .header {
     background-color: #ffdab9;
+    border: 3px solid black;
 }
 
 h1 {
     font-family: Papyrus;
+    width: 100px;
+    margin: 0 auto;
+    padding-top: 15px;
+    padding-bottom: 15px;;
 }
 
 nav {
     font-family: Arial;
+    padding-bottom: 5px;
+    width: 500px;
+    margin: 0 auto;
 }
 
 h2 {
+    font-family: Arial;
+}
+
+h3 {
     font-family: Arial;
 }
 
@@ -22,3 +34,23 @@ p {
     font-family: Arial;
 }
 
+a:hover {
+    background-color: indianred;
+}
+
+.body {
+    border: 3px solid black;
+    border-top: 0;
+    padding-top: 10px;
+}
+
+#hercules {
+    height: 300px;
+    width: 350px;
+    margin: 0 auto;
+}
+
+.body img {
+    height: 100px;
+    width: 100px;
+}
